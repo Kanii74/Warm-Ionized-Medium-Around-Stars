@@ -1,7 +1,7 @@
 # Warm Ionized Medium Around Stars
 
-This project estimates the size of H II regions (Strömgren spheres) around main-sequence stars of spectral type O, B, A, F, G, K, and M.
-
+This was given as an Assignment by Dr. Anand Narayana at IIST, during the course Galaxies in 2023.
+This project estimates the size of H II regions (Strömgren spheres) around main-sequence stars of spectral type O, B, A, F, G, K, and M. 
 Using blackbody radiation theory and photoionization physics, the hydrogen ionizing photon flux and resulting H II region sizes are calculated.
 
 ---
@@ -22,7 +22,7 @@ The work includes:
 
 The Planck function used:
 
-Bν(ν, T) = (2hν³ / c²) * 1 / (exp(hν / kT) − 1)
+$B_\nu(\nu, T) = \frac{2h\nu^3}{c^2} \frac{1}{\exp\left(\frac{h\nu}{kT}\right) - 1}$
 
 - Frequency plotted in Hz  
 - Planck function plotted in J s⁻¹ m⁻² sr⁻¹ Hz⁻¹  
@@ -45,7 +45,7 @@ This determines how many ionizing photons are emitted per second by each spectra
 
 The H II region size is calculated using:
 
-RS = [ (3Q) / (4π αH n²) ]^(1/3)
+$R_S = \left( \frac{3Q}{4\pi \alpha_H n^2} \right)^{1/3}$
 
 Where:
 
